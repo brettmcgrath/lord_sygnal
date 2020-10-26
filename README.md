@@ -6,7 +6,7 @@ In honor of the first person from whom I learned HTML and some JavaScript, this 
 
 ### Functions:
 
-  - Queues music from YouTube to play within discord voice chat through typing "!play <YouTube url>"
+  - Queues music from YouTube to play within discord voice chat through typing "!play \<YouTube url\>"
   - Listens for someone to type the word "bye" in chat at which point it plays a sound
   - Demands to be refered to by the title of "Lord" and not just Sygnal
   - Responds to several other key words based on text listening response
