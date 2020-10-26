@@ -18,8 +18,8 @@ bot.on('ready', () => {
 
 
 //Stuff that happens when people join or leave a voice channel
-bot.on("voiceStateUpdate",  (newMember, bot) => {
-  if (newMember.id === "368578878777720832" ) { //This is the ID for Brian P
+bot.on("VoiceConnection.authenticated",  (newMember, bot) => {
+  if (newMember.id === "368578878777720832" ) { //This is the ID for Brett
     bot.voiceChannel.join()
       .then(connection => {
       const dispatcher = connection.playFile('C:/Users/Athos/code/sygnal/sounds/uuu.mp3');
